@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="models\photos.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\photos.js" />
     <Compile Include="routes\user.js" />
@@ -40,8 +41,10 @@
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
     <Content Include="views\photos\index.ejs" />
+    <Content Include="views\photos\upload.ejs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="models\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
